@@ -1,9 +1,6 @@
 from centos
 MAINTAINER AXAMedLA
 
-ENV http_proxy http://${proxyHost}:${proxyPort}
-ENV https_proxy http://${proxyHost}:${proxyHost}
-
 USER 0
 
 RUN yum -y install java-1.7.0-openjdk
